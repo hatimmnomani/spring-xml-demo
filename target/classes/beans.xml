@@ -1,30 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-        https://www.springframework.org/schema/beans/spring-beans.xsd">
-
-    <bean id="actor" class="com.stackroute.domain.Actor">
-        <constructor-arg index="0" value="Bryan Cranston"> </constructor-arg>
-        <constructor-arg index="1" value="male"> </constructor-arg>
-        <constructor-arg index="2" value="63"></constructor-arg>
-
-    </bean>
-
-    <bean id="actor1" class="com.stackroute.domain.Actor">
-        <constructor-arg index="0" value="Aaron Paul"> </constructor-arg>
-        <constructor-arg index="1" value="male"> </constructor-arg>
-        <constructor-arg index="2" value="39"></constructor-arg>
-
-    </bean>
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
 
 
-
-    <bean id="movie2" autowire="constructor" class="com.stackroute.domain.movie" >
-
-    </bean>
-
+    <bean id="cycle" class="com.stackroute.domain.BeanLifeCycleDemo" init-method="Init" destroy-method="clean" ></bean>
 
 
 </beans>

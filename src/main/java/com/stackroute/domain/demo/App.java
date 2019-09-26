@@ -1,4 +1,4 @@
-package com.stackroute;
+package com.stackroute.domain.demo;
 
 /**
  * Hello world!
