@@ -1,17 +1,22 @@
 package com.stackroute.domain;
 
+import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.ClassPathResource;
+
 public class Main {
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
-        System.out.println("Config file loaded.");
-        movie movie1 = context.getBean(movie.class);
-        System.out.println(movie1.getActor().getName());
-        System.out.println(movie1.getActor().getGender());
-        System.out.println(movie1.getActor().getAge());
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");
+        movie movie=(movie)applicationContext.getBean("movie2");
 
+        XmlBeanFactory xmlBeanFactory= new XmlBeanFactory ( new ClassPathResource("beans.xml"));
+        movie movieFirst= (movie)xmlBeanFactory.getBean("movie2");
 
+        System.out.println(movie.getActor().getName());
 
+        movie.setApplicationContext(applicationContext);
+        movieFirst.setBeanFactory(xmlBeanFactory);
+        movie.setBeanName("beam123");
     }
 }
