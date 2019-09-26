@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44906b4b-7dfd-4937-83a4-51217b0cdd69" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/BeanLifeCycleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/BeanPostProcessorDemoBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/demo/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/demo/Actor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/demo/movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/demo/movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/domain/BeanLifeCycleDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/domain/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/domain/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/domain/demo/Actor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/domain/demo/Actor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/domain/demo/movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/domain/demo/movie.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RN70Zu2MMt377MokKlAssUNCo6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/stackroute" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.domain.Main" />
+      <module name="SpringXML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44906b4b-7dfd-4937-83a4-51217b0cdd69" name="Default Changelist" comment="" />
+      <created>1569495477307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569495477307</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
