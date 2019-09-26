@@ -4,33 +4,21 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="actor1" class="com.stackroute.domain.Actor">
-        <constructor-arg index="0" value="Bryan Cranston"> </constructor-arg>
-        <constructor-arg index="1" value="male"> </constructor-arg>
-        <constructor-arg index="2" value="63"></constructor-arg>
-
+    <bean id = "actor" class = "com.stackroute.domain.Actor">
+        <constructor-arg index="0" type="java.lang.String" name="name" value="Bryan Cranston"/>
+        <constructor-arg index="1" type="java.lang.String" name="gender" value="Male"/>
+        <constructor-arg index="2" type="int" name="age" value="63"/>
     </bean>
 
-    <bean id="actor2" class="com.stackroute.domain.Actor">
-        <constructor-arg index="0" value="Aaron Paul"> </constructor-arg>
-        <constructor-arg index="1" value="male"> </constructor-arg>
-        <constructor-arg index="2" value="39"></constructor-arg>
-
-    </bean>
-
-
-    <bean name="movie1,movieB" class="com.stackroute.domain.movie" scope="prototype" >
-        <constructor-arg index="0" ref="actor1" ></constructor-arg>
-
-
+    <bean id ="actor1" class="com.stackroute.domain.Actor">
+        <constructor-arg index="0" type ="java.lang.String" name="name"  value="Aaron Paul"/>
+        <constructor-arg index="1" type = "java.lang.String" name="gender" value="Male"/>
+        <constructor-arg index="2" type = "int" name="age" value="39"/>
     </bean>
 
 
-    <bean id="movie2" class="com.stackroute.domain.movie"  scope="prototype">
-        <constructor-arg index="0" ref="actor2" ></constructor-arg>
+    <bean id ="movie1" autowire="byName" class="com.stackroute.domain.movie"> </bean>
 
-
-    </bean>
 
 
 </beans>
