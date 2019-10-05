@@ -4,19 +4,10 @@ public class actor {
     private String name;
     private String gender;
     private int age;
+    
     public String getName() {
         return name;
     }
-
-    public String getGender() {
-        return gender;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-
     public void setName(String name) {
         this.name = name;
     }
@@ -24,11 +15,17 @@ public class actor {
     public void setGender(String gender) {
         this.gender = gender;
     }
-
+    public String getGender() {
+        return gender;
+    }
+    
+    public int getAge() {
+        return age;
+    }
     public void setAge(int age) {
         this.age = age;
     }
-
+    
     public void displayDetails() {
         System.out.println("Name: " + this.name);
         System.out.println("Gender: " + this.gender);
